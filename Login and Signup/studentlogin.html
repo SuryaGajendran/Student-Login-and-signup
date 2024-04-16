@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        #main{
+            height: 100vh;
+            background-image: url("../js/vedio/login.jpg");
+            background-size: 100%;
+            
+        }
+        #secondary{
+            display: inline-block;
+            height: 320px;
+            width: 350px;
+            margin: 150px 500px;
+            background-color: rgba(109, 108, 108,0.5);
+            text-align: center;
+            color: white;
+            box-shadow: -10px -10px 9px gray,10px 10px 9px gray;
+        }
+        .link{
+            text-decoration: none;
+            color: rgb(29, 11, 229);
+            font-weight: bolder;
+        }
+        .sp{
+            color: red;
+        }
+        </style>
+        </head>
+<body>
+
+    <div  id="main">
+
+
+
+
+        <div id="secondary">
+            <br>
+        <h3>create login</h3>
+        <br>
+        student username <input type="text" id="value1">
+        <br>
+        <span id="sp1" class="sp"></span>
+        <br>
+        student e-mail <input type="text" id="value2">
+        <br>
+        <span id="sp2" class="sp"></span>
+        <br>
+        new password <input type="password" id="value3">
+        <br>
+        <span id="sp3" class="sp"></span>
+        <br>
+        confirm password <input type="password" id="value4"><i class="fa-regular fa-eye" id="eye"></i>
+        <br>
+        <span id="sp4" class="sp"></span>
+        <br>
+        <button>submit</button>
+        <br><br>
+        <a href="./studeentsignin.html" class="link">already have an account??</a>
+        <a href="./studentlogin.html" class="link"> log-in!!</a>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="../js/studentlogin.js"></script>
+
+    <script src="https://kit.fontawesome.com/7e211bc191.js" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
